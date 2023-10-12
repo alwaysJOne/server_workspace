@@ -67,7 +67,7 @@ public class RequestPostServlet extends HttpServlet {
 		// JSP(Java Server Page) 방식 : html 내에 Java코드를 쓸 수 있음.
 		
 		//응답페이지를 만드는 과정을 JSP에게 위임(떠넘긴다)
-		//단, 응답화명(jsp)에서 필요로하는 데이터들을 차곡차곡담아서 전달해줘야한다.
+		//단, 응답화면(jsp)에서 필요로하는 데이터들을 차곡차곡담아서 전달해줘야한다.
 		//차곡차곡 담기위한 공간 == request의 attribute영역
 		// request.setAttribute("키",벨류);
 		
